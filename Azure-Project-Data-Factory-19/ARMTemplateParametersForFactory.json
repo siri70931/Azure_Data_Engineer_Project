@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "Azure-Project-Data-Factory-19"
+		},
+		"ADLS_Connection_accountKey": {
+			"value": ""
+		},
+		"Azure_SQL_DB_Connection_password": {
+			"value": ""
+		},
+		"ADLS_Connection_properties_typeProperties_url": {
+			"value": "https://azureprojectstoragegroup.dfs.core.windows.net/"
+		},
+		"Azure_SQL_DB_Connection_properties_typeProperties_server": {
+			"value": "azure-project-server-1.database.windows.net"
+		},
+		"Azure_SQL_DB_Connection_properties_typeProperties_database": {
+			"value": "Azure_Project_DB"
+		},
+		"Azure_SQL_DB_Connection_properties_typeProperties_userName": {
+			"value": "Sireesha_Admin"
+		}
+	}
+}
